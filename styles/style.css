@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+body {
+	height: 100vh;
+}
+/*Header*/
+.header {
+	width: 100%;
+
+}
+.header__container {
+	background-color: #a10302;
+	width: 100%;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	height: 120px;
+	width: 120px;
+	margin-left: 10px;
+	background-image: url(../images/logo-rpm.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box-contact {
+	list-style: none;
+	padding: 0;
+	margin-right: 5px;
+}
+.tlf__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'PT Sans', sans-serif;
+	color: #ffffff;
+	font-size: 1em;
+}
+.icon__tlf {
+	background-image: url(../images/mvl3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	height: 50px;
+	width: 40px;
+}
+.facebook {
+list-style: none;
+background-image: url(../images/facebook2.png);
+overflow: hidden;
+display: block;
+background-size: 40px 40px;
+padding-top: 40px;
+height: 0;
+width: 40px;
+}
+.mail {
+	list-style: none;
+	background-image: url(../images/mail2.png);
+	overflow: hidden;
+	display: block;
+	background-size: 40px 40px;
+	padding-top: 40px;
+	height: 0;
+	width: 40px;
+}
+
+	/* .twitter{
+		list-style: none;
+		background-image: url(../images/twitter2.png);
+		overflow: hidden;
+		display: block;
+		background-size: 40px 40px;
+		padding-top: 40px;
+		height: 0;
+		width: 40px;
+	} */
+
+/*Main*/
+.fondo {
+	background-image: url(../images/logo-rpm.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100vh;
+	}
+	/*Footer*/
+	.footer {
+		background-color: #27334B;
+		width: 100%;
+		height: 100px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.icon__calendar {
+		list-style: none;
+		background-image: url(../images/horario3.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-size: 40px 40px;
+		height: 60px;
+		width: 40px;
+	}
+	.hours {
+		text-align: center;
+		margin: 10px;
+		color: #ffffff;
+	}
+	.footer__container {
+		background-color: #27334B;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		padding-right: 20px;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	 @media all and (min-width:550px) {
+		.box-contact{
+			display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	 }
